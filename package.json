@@ -1,0 +1,21 @@
+{
+  "name": "sass-lesson",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev:practice": "cross-env LESSON_NAME=practice vite",
+    "dev:puzzle": "cross-env LESSON_NAME=puzzle vite",
+    "build": "vite build && cross-env LESSON_NAME=puzzle vite preview"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "sass": "^1.54.5",
+    "vite": "^3.0.9"
+  },
+  "volta": {
+    "node": "16.17.0",
+    "npm": "6.14.17"
+  }
+}
